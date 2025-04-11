@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google</title>
+    <link rel="stylesheet" href="./src/css/body.css">
+    <link rel="stylesheet" href="./src/css/header.css">
+    <link rel="stylesheet" href="./src/css/main.css">
+    <link rel="stylesheet" href="./src/css/footer.css">
+</head>
+<body>
+    <header>
+        <form class="header-box">
+            <svg class="icon" height="30" viewBox="0 0 92 30" width="92" xmlns="http://www.w3.org/2000/svg"><path d="M38.9 15.51c0 4.26-3.32 7.39-7.4 7.39s-7.4-3.14-7.4-7.39c0-4.28 3.32-7.39 7.4-7.39s7.4 3.1 7.4 7.39zm-3.24 0c0-2.66-1.93-4.48-4.16-4.48-2.23 0-4.16 1.82-4.16 4.48 0 2.63 1.93 4.48 4.16 4.48 2.23 0 4.16-1.85 4.16-4.48z" fill="#EA4335"></path><path d="M11.96 22.98C5.63 22.98.31 17.83.31 11.5S5.63.02 11.96.02c3.5 0 5.99 1.37 7.87 3.16L17.62 5.4c-1.34-1.26-3.16-2.24-5.66-2.24-4.62 0-8.23 3.72-8.23 8.34 0 4.62 3.61 8.34 8.23 8.34 3 0 4.7-1.2 5.79-2.3.9-.9 1.49-2.2 1.74-4.17H12v-3.14h10.52c.11.56.17 1.23.17 1.96 0 2.35-.64 5.49-2.72 7.56-2.02 2.11-4.59 3.23-8.01 3.23z" fill="#4285F4"></path><path d="M54.9 15.51c0 4.26-3.32 7.39-7.4 7.39s-7.4-3.14-7.4-7.39c0-4.28 3.32-7.39 7.4-7.39s7.4 3.1 7.4 7.39zm-3.24 0c0-2.66-1.93-4.48-4.16-4.48-2.23 0-4.16 1.82-4.16 4.48 0 2.63 1.93 4.48 4.16 4.48 2.23 0 4.16-1.85 4.16-4.48z" fill="#FBBC05"></path><path d="M70 8.56v13.27c0 5.46-3.05 7.7-6.86 7.7-3.58 0-5.74-2.41-6.55-4.37l2.83-1.18c.5 1.2 1.74 2.63 3.72 2.63 2.44 0 3.78-1.51 3.78-4.34v-1.06h-.11c-.73.9-2.04 1.68-3.81 1.68-3.7 0-7-3.22-7-7.36 0-4.17 3.3-7.42 7-7.42 1.76 0 3.08.78 3.81 1.65h.11v-1.2H70zm-2.86 6.97c0-2.6-1.74-4.51-3.95-4.51-2.24 0-3.95 1.9-3.95 4.51 0 2.58 1.71 4.45 3.95 4.45 2.22.01 3.95-1.87 3.95-4.45z" fill="#4285F4"></path><path d="M75 1.17V22.9h-3V1.17h3z" fill="#34A853"></path><path d="M87.5 17.94l2.48 1.68c-.8 1.2-2.73 3.28-6.06 3.28-4.13 0-7.22-3.25-7.22-7.39 0-4.4 3.11-7.39 6.86-7.39 3.78 0 5.62 3.05 6.23 4.7l.31.85-9.71 4.08c.74 1.48 1.9 2.24 3.53 2.24s2.76-.82 3.58-2.05zm-7.63-2.66l6.5-2.74c-.36-.92-1.43-1.57-2.7-1.57-1.62 0-3.88 1.46-3.8 4.31z" fill="#EA4335"></path></svg>
+            <div class="search-box">
+                <input id = 'search' type="text" />
+                <button class="clear" type="reset">x</button>
+                <span class="verline">|</span>
+                <svg class="svg" id="keyboard" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 512 512" xml:space="preserve" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <style type="text/css"> .st0{fill:#000000;} </style> <g> <path class="st0" d="M459.576,99.307H52.423C23.524,99.307,0,122.837,0,151.736v192.879c0,37.536,30.537,68.078,68.068,68.078 h375.862c37.532,0,68.069-30.542,68.069-68.078V151.736C512,122.837,488.475,99.307,459.576,99.307z M485.515,344.615 c0,22.934-18.655,41.589-41.584,41.589H68.068c-22.929,0-41.584-18.655-41.584-41.589V151.736 c0-14.306,11.638-25.938,25.938-25.938h407.154c14.301,0,25.938,11.633,25.938,25.938V344.615z"></path> <rect x="189.792" y="233.929" class="st0" width="44.138" height="44.142"></rect> <rect x="256.002" y="233.929" class="st0" width="44.134" height="44.142"></rect> <rect x="322.207" y="233.929" class="st0" width="44.138" height="44.142"></rect> <rect x="410.484" y="300.139" class="st0" width="44.134" height="44.134"></rect> <rect x="189.792" y="167.729" class="st0" width="44.138" height="44.134"></rect> <rect x="123.587" y="233.929" class="st0" width="44.138" height="44.142"></rect> <rect x="123.587" y="167.729" class="st0" width="44.138" height="44.134"></rect> <rect x="57.382" y="300.139" class="st0" width="44.134" height="44.134"></rect> <rect x="57.382" y="233.929" class="st0" width="44.134" height="44.142"></rect> <rect x="57.382" y="167.729" class="st0" width="44.134" height="44.134"></rect> <rect x="256.002" y="167.729" class="st0" width="44.134" height="44.134"></rect> <rect x="322.207" y="167.729" class="st0" width="44.138" height="44.134"></rect> <rect x="123.587" y="300.139" class="st0" width="264.825" height="44.134"></rect> <rect x="388.412" y="167.729" class="st0" width="66.205" height="110.343"></rect> </g> </g></svg>
+                <svg class="svg"  id="microfon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 512.001 512.001" xml:space="preserve" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path style="fill:#6A82A1;" d="M255.999,308.822c-46.437,0-84.217-37.779-84.217-84.217V84.217C171.782,37.78,209.563,0,255.999,0 s84.217,37.78,84.217,84.217v140.388C340.218,271.044,302.437,308.822,255.999,308.822z"></path> <g> <path style="fill:#36495E;" d="M255.999,0c-0.001,0-0.003,0-0.004,0v308.822c0.001,0,0.003,0,0.004,0 c46.437,0,84.217-37.779,84.217-84.217V84.217C340.218,37.78,302.437,0,255.999,0z"></path> <path style="fill:#36495E;" d="M401.561,224.607c0-10.938-8.868-19.806-19.806-19.806s-19.806,8.868-19.806,19.806 c0,58.42-47.528,105.948-105.948,105.948s-105.948-47.528-105.948-105.948c0-10.938-8.868-19.806-19.806-19.806 s-19.806,8.868-19.806,19.806c0,73.545,54.829,134.515,125.754,144.208v40.278c-37.593,8.959-65.641,42.806-65.641,83.103 c0,10.938,8.868,19.806,19.806,19.806h131.276c10.938,0,19.806-8.868,19.806-19.806c0-40.294-28.044-74.14-65.634-83.101v-40.279 C346.732,359.121,401.561,298.151,401.561,224.607z"></path> </g> <g> <path style="fill:#22313F;" d="M340.218,134.605h-59.68c-10.938,0-19.806,8.868-19.806,19.806c0,10.938,8.868,19.806,19.806,19.806 h59.68V134.605z"></path> <path style="fill:#22313F;" d="M280.538,195.949c-10.938,0-19.806,8.868-19.806,19.806c0,10.938,8.868,19.806,19.806,19.806h58.943 c0.469-3.589,0.735-7.241,0.735-10.955v-28.657H280.538z"></path> <path style="fill:#22313F;" d="M260.732,93.068c0,10.938,8.868,19.806,19.806,19.806h59.68V84.217 c0-3.714-0.267-7.367-0.735-10.955h-58.943C269.6,73.262,260.732,82.129,260.732,93.068z"></path> </g> <path style="fill:#2C3E50;" d="M401.561,224.607c0-10.938-8.868-19.806-19.806-19.806s-19.806,8.868-19.806,19.806 c0,58.42-47.528,105.948-105.948,105.948c-0.001,0-0.003,0-0.004,0V512h65.639c10.938,0,19.806-8.868,19.806-19.806 c0-40.294-28.044-74.14-65.634-83.101v-40.279C346.732,359.121,401.561,298.151,401.561,224.607z"></path> </g></svg>
+                <svg class="svg" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" fill="#000000"><g id="camera" stroke-width="0"></g><g stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <defs> <style>.cls-1{fill:#005792;}</style> </defs> <title></title> <g id="Camera"> <path class="cls-1" d="M28.5,10.75v12.5a2.25,2.25,0,0,1-2.25,2.25H10.66c-.18,0-6.74-.19-6.66-.36C4.65,23.87,2.47,23,4,23H24a2,2,0,0,0,2-2V8.75a.25.25,0,0,1,.25-.25h0A2.25,2.25,0,0,1,28.5,10.75Z"></path> <path d="M26.5,26.1H5.5a2.61,2.61,0,0,1-2.6-2.6v-13A2.61,2.61,0,0,1,5.5,7.9h21a2.61,2.61,0,0,1,2.6,2.6v13A2.61,2.61,0,0,1,26.5,26.1Zm-21-17a1.4,1.4,0,0,0-1.4,1.4v13a1.4,1.4,0,0,0,1.4,1.4h21a1.4,1.4,0,0,0,1.4-1.4v-13a1.4,1.4,0,0,0-1.4-1.4Z"></path> <path d="M16,22.1A5.1,5.1,0,1,1,21.1,17,5.11,5.11,0,0,1,16,22.1Zm0-9A3.9,3.9,0,1,0,19.9,17,3.91,3.91,0,0,0,16,13.1Z"></path> <path d="M22.1,9.1H9.9V7.5a1.6,1.6,0,0,1,1.6-1.6h9a1.6,1.6,0,0,1,1.6,1.6Zm-11-1.2h9.8V7.5a.4.4,0,0,0-.4-.4h-9a.4.4,0,0,0-.4.4Z"></path> <path d="M25.5,12.1h-3a.6.6,0,0,1,0-1.2h3a.6.6,0,1,1,0,1.2Z"></path> </g> </g></svg>
+                <label class="svg" for="search"><svg class="svg" fill="#18536d" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" stroke="#18536d"><g id="seek" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <title>search</title> <path d="M30.885 29.115l-10.103-10.103c1.538-1.911 2.468-4.368 2.468-7.042 0-6.229-5.050-11.279-11.279-11.279s-11.279 5.050-11.279 11.279c0 6.229 5.050 11.279 11.279 11.279 2.674 0 5.13-0.93 7.063-2.485l-0.022 0.017 10.103 10.103c0.226 0.226 0.539 0.366 0.884 0.366 0.691 0 1.251-0.56 1.251-1.251 0-0.345-0.14-0.658-0.366-0.884l0 0zM3.25 12c0-4.832 3.918-8.75 8.75-8.75s8.75 3.918 8.75 8.75c0 4.832-3.918 8.75-8.75 8.75v0c-4.83-0.005-8.745-3.92-8.75-8.749v-0.001z"></path> </g></svg></label>
+                
+            </div>
+            <div class="plu">
+                <svg class="svg1" focusable="false" viewBox="0 0 24 24"><path d="M6,8c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM12,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM6,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM6,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM12,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM16,6c0,1.1 0.9,2 2,2s2,-0.9 2,-2 -0.9,-2 -2,-2 -2,0.9 -2,2zM12,8c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM18,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM18,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2z"></path><image src="https://ssl.gstatic.com/gb/images/bar/al-icon.png" alt="" height="24" width="24" style="border:none;display:none \9"></image></svg>
+                <img class="mimage" src="https://lh3.google.com/u/0/ogw/AF2bZyh0hDlqYirqSMOz-E2UGC_j0Twv_-Ge5kG-oedboAGukg=s32-c-mo" srcset="https://lh3.google.com/u/0/ogw/AF2bZyh0hDlqYirqSMOz-E2UGC_j0Twv_-Ge5kG-oedboAGukg=s32-c-mo 1x, https://lh3.google.com/u/0/ogw/AF2bZyh0hDlqYirqSMOz-E2UGC_j0Twv_-Ge5kG-oedboAGukg=s64-c-mo 2x " alt="" aria-hidden="true" data-noaft="" data-csiid="AWX3Z9PqD_zm7_UP0KX-oAY_6" data-atf="0" data-defe="1">
+            </div>
+        </form>
+        <div class="links">
+            <ul>
+                <li><a href="#">Все</a></li>
+                <li><a href="#">Картинки</a></li>
+                <li><a href="#">Видео</a></li>
+                <li><a href="#">Новости</a></li>
+                <li><a href="#">Короткие видео</a></li>
+                <li><a href="#">Книги</a></li>
+                <li><a href="#">Веб-версия</a></li>
+                <li><a href="#">Ещё</a></li>
+                <li><a href="#">Инструменты</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <main>
+       
+        <div class="left-mainbox">
+            <h3 class="vid-top">Видео:</h3>
+            <div class="posts">
+                <div class="post">
+                    <div class="post-video">
+                        <img src="./src/images/11.jpg" alt="">
+                    </div>
+                    <div class="post-text">
+                        <h4><a href="#">Adele - Hello (Offical Music Video)</a></h4>
+                        <p>YouTube AdeleVEVO <br>23 okt. 2015y.</p>
+                    </div>
+                </div>
+                <div class="post">
+                    <div class="post-video">
+                        <img src="./src/images/12.jpg" alt="">
+                    </div>
+                    <div class="post-text">
+                        <h4><a href="#">Lionel Richie - Hello (Offical MUsic Video)</a></h4>
+                        <p>YouTube LionelRichielVEVO <br>20 noyabr 2020 y.</p>
+                    </div>
+                </div>
+                <div class="post">
+                    <div class="post-video">
+                        <img src="./src/images/13.jpg" alt="">
+                    </div>
+                    <div class="post-text">
+                        <h4><a href="#">Adele - Hello (Live at the NRJ Awards)</a></h4>
+                        <p>YouTube AdeleVEVO <br>10 noyabr 2015y.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="line">
+                <div class="main-bottom"><h3>Ещё</h3></div>
+            </div>
+
+            <div class="text-posts">
+                <div class="text-post">
+                    <div class="icon-text">
+                        <img class="XNo5Ab" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAIAAAD9b0jDAAAA10lEQVR4Ae2WIQiFMBCGX8ceTPaejVarwY7BbBJsMhR7M9iDYcmOK/ZmMtnr4N4NLugJFvfek4fHF47/4GNh7PaCl30+Ko1jqCooS0IISBIabXOkrsFxTB5FUBSQ5wT2mOykUgKraaLRsVzX5MPAcyn30r4HVuN4Lj2eAyV/In2k80wX04aU182lj1RrWFfkF/dUa8KK9IRrUt83z+6ygFLY25B63jG/LO06nrftPV+pLGMxJpcXH6IUPwRf0U2D25jAPk1phL0QxGZFE2FolnMQfOMzYZ830cdxhexDbjYAAAAASUVORK5CYII=" style="height:26px;width:26px" alt="" data-csiid="YND3Z-PvHdyni-gPkfWLuQY_6" data-atf="1">
+                        <div class="title-text">
+                            <h5>HELLO! Russia</h5>
+                            <p>https.//hellomagrussia:</p>
+                        </div>
+                    </div>
+                    <div class="link-text">
+                        <h3>HELLO! Russia - всё о звездах, светских событиях и...</h3>
+                        <p>Яркие выходы знаменитостей , звездные пары , подробности жизни монархов , эксклюзивные интервью и обзоры экспертов — все это и гораздо больше на ...</p>
+                    </div>
+                </div>
+                <div class="text-post">
+                    <div class="icon-text">
+                        <img class="XNo5Ab" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAIAAAD9b0jDAAAA10lEQVR4Ae2WIQiFMBCGX8ceTPaejVarwY7BbBJsMhR7M9iDYcmOK/ZmMtnr4N4NLugJFvfek4fHF47/4GNh7PaCl30+Ko1jqCooS0IISBIabXOkrsFxTB5FUBSQ5wT2mOykUgKraaLRsVzX5MPAcyn30r4HVuN4Lj2eAyV/In2k80wX04aU182lj1RrWFfkF/dUa8KK9IRrUt83z+6ygFLY25B63jG/LO06nrftPV+pLGMxJpcXH6IUPwRf0U2D25jAPk1phL0QxGZFE2FolnMQfOMzYZ830cdxhexDbjYAAAAASUVORK5CYII=" style="height:26px;width:26px" alt="" data-csiid="YND3Z-PvHdyni-gPkfWLuQY_6" data-atf="1">
+                        <div class="title-text">
+                            <h5>hellomagazine.com</h5>
+                            <p>https.//www.hellomagazine.com:</p>
+                        </div>
+                    </div>
+                    <div class="link-text">
+                        <h3>HELLO! - Daily royal, celebrity, fashion, beauty & lifestyle news</h3>
+                        <p>HELLO! brings you the latest celebrity & royal news from the UK & around the world, magazine exclusives, fashion, beauty, lifestyle news, celeb babies, ...</p>
+                    </div>
+                </div>
+
+                <div class="centr-text">
+                    <h3>Ворросы по теме  :</h3>
+                    <div class="centr-link">
+                        <h5>Что означает Hello?</h5>
+                        <svg version="1.1" id="Icons" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 32 32" xml:space="preserve" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <style type="text/css"> .st0{fill:none;stroke:#4d5156;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;} </style> <circle class="st0" cx="16" cy="16" r="13"></circle> <polyline class="st0" points="21,14 16,19 11,14 "></polyline> </g></svg>
+                    </div>
+                    <div class="centr-link">
+                        <h5>Как правильно: Hello или hallo?</h5>
+                        <svg version="1.1" id="Icons" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 32 32" xml:space="preserve" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <style type="text/css"> .st0{fill:none;stroke:#4d5156;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;} </style> <circle class="st0" cx="16" cy="16" r="13"></circle> <polyline class="st0" points="21,14 16,19 11,14 "></polyline> </g></svg>
+                    </div>
+                    <div class="centr-link">
+                        <h5>Когда говорят Hello?</h5>
+                        <svg version="1.1" id="Icons" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 32 32" xml:space="preserve" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <style type="text/css"> .st0{fill:none;stroke:#4d5156;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;} </style> <circle class="st0" cx="16" cy="16" r="13"></circle> <polyline class="st0" points="21,14 16,19 11,14 "></polyline> </g></svg>
+                    </div>
+                    <div class="centr-link">
+                        <h5>Что сказать вместо "hello"?</h5>
+                        <svg version="1.1" id="Icons" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 32 32" xml:space="preserve" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <style type="text/css"> .st0{fill:none;stroke:#4d5156;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;} </style> <circle class="st0" cx="16" cy="16" r="13"></circle> <polyline class="st0" points="21,14 16,19 11,14 "></polyline> </g></svg>
+                    </div>
+                </div>
+
+                <div class="text-post">
+                    <div class="icon-text">
+                        <img class="XNo5Ab" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAAAAABXZoBIAAAAnklEQVR4AeTNIQiDQABG4b+u17X1aF6PK3YEO9iMJqPVau82y4FgMezS0oVLhqsHtrcqeqzDXv3CEz/6L4yTtZM3dnHmPTtjzXZAXKYVo4agkU2GI2Lloc6JDez1+flswMu1EQZ3xlE7lK8eKDkjtwE+crBMV+wesKmCiisGGepZIfQJpMj9SNb2MYWrChjVkULuCyCfRvsdmBieyQQAsoDk/9ryhFMAAAAASUVORK5CYII=" style="height:26px;width:26px" alt="" data-csiid="YND3Z-PvHdyni-gPkfWLuQY_15" data-atf="4">
+                        <div class="title-text">
+                            <h5>Википедия</h5>
+                            <p>https://ru.wikipedia.org › wiki › Hello_(песня_Адели)  :</p>
+                        </div>
+                    </div>
+                    <div class="link-text">
+                        <h3>Hello (песня Адели)</h3>
+                        <p>Hello» (с англ. — «Привет») — песня британской певицы и автора песен Адели с третьего студийного альбома 25. Написанная Аделью и Грегом Кёрстином, ...</p>
+                    </div>
+                </div>
+
+                <div class="text-post">
+                    <div class="icon-text">
+                        <img class="XNo5Ab" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAIAAAD9b0jDAAACwUlEQVR4Ad3VA3RlQRBF0Rrbtm3btm3btm3btm3btm17ek6vjvM1TvJWxcnOrfsfRP2Fw2egrz98XrDubKWuW6X0Csm9TE+xZaXab+Kb/OhX0GGzj2il4n6pd0ba3JGO9xn9SZPrUuOMFNnRYcbZT46jpIhfdQWcJga8lMnvZdFnWfmVSTHvyby2U65nKfouijwMJ9tTZfj4/Jl9FJEddbrez2TWB9mqGDjcbf3HqZ7l1JjGakAVVTTm9zjaPSCCawclI6IOCLRDEZO8serevSMpUT4HjaAyZ1AtqqhJ7VSD7E5ugii2UHpkazIiEpBPYle7FSrvqdt12rwZN4Z5Ur0WiqZL5HNxr4pcGjHEMkrrLE4utiYjYsyyV8u38fhCs+yj4iXp1Lj0wOeUYBldcuS6tDzG4mRkazIiKisHLnnpgX5N2FtLFllAa8w+LOPuwYGSl61tnYzfX32ZJKp8ZhOWTk7VrmIBDdh/h8x6Zl5rXpkmfS4q28fuWuqcqPkNoU0DFlDpuhU07fnvdEqb05besYOemagOinqWW3XMAXrYNspQ6E+ge9Ib1Or6EY9+a3dbybwbXIUOrX+3JOiHSlbW54UClR1Ko1ueyRBbL5S+ijaIuh5Po4ujqtZWUE4pIF4l0wBh+TfW0JYL6zntfjqPGiZWUXJRq0sDJiyuh7x8WXleI5mSxjVmF2H9kxksoRz9Vh83YV1cbkuGZg9+Wm/JBrjIszPKrkRvHxenTRMT9FZhP5ZR83JxCZgScHkPTRVswPtwC5PI1mRyOqY8Fhbn/DeiHZTtXFzyutBJz5w3lhmSXh8X1q1oCzWXYPQObVwvsJ1XYx/qh2iGpHr98VlutgzpVqRTBx4nSwdJA5EOeugRxYz0TWHmYXW/bsVrFVPaR83NcN62RaWGVEF3ndJmhPsIlsu8PrjDZz33f/34AVdAMKGqCcnmAAAAAElFTkSuQmCC" style="height:26px;width:26px" alt="" data-csiid="YND3Z-PvHdyni-gPkfWLuQY_17" data-atf="4">
+                        <div class="title-text">
+                            <h5>Amalgama-lab</h5>
+                            <p>https://www.amalgama-lab.com › songs › adele › hello  :</p> 
+                        </div>
+                    </div>
+                    <div class="link-text">
+                        <h3>Перевод песен Adele: перевод песни Hello, текст ...</h3>
+                        <p>Яркие выходы знаменитостей , звездные пары , подробности жизни монархов , эксклюзивные интервью и обзоры экспертов — все это и гораздо больше на ...</p>
+                    </div>
+                </div>
+                <div class="text-post">
+                    <div class="icon-text">
+                        <img class="XNo5Ab" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAALVBMVEVHcEz/e+X/e+X/e+X/e+X/e+X/e+X/e+X/e+X/cOT/////d+X/3fj/ru7/nOtZhYkPAAAACHRSTlMAE5Ts6k/Kpkam+MEAAACySURBVDiNjVNJAsQgCHOpFkX7/+dOF7Hq6GRy8NCkEiEo9cIZb4msN05NoHdqsOuRNzTA9L9vI0+0NZfob/qCBvyrmNxfqiz8DU6lAIdwHze4KSLvzykFPtKDXBT7KSh8SDEGzvFBCuXz2d/fAlct3oLqQfjTpu8ExAUi8Mr2gvzgEIUVjysPhAWwBDQJnwkbBVstw+LlsGqemnFzO24YGBw5HFoYe7w4ePX+WN4L0/X/ABgXGzHq6TuYAAAAAElFTkSuQmCC" style="height:18px;width:18px" alt="" data-csiid="YND3Z-PvHdyni-gPkfWLuQY_21" data-atf="4">
+                        <div class="title-text">
+                            <h5>Elementor</h5>
+                            <p>https://elementor.com › hello... ·Перевести эту страницу  :</p> 
+                        </div>
+                    </div>
+                    <div class="link-text">
+                        <h3>The Best & Fastest WordPress Theme: Hello by Elementor</h3>
+                        <p>Hello is free to download, loads quickly, and starts with minimal styling so you can customize it exactly the way you want. No code, no conflicts, no-brainer.</p>
+                    </div>
+                </div>
+                <div class="text-post">
+                    <div class="icon-text">
+                        <img class="XNo5Ab" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAcElEQVR4AWP4//8/RZh6BgCZAkDsAMUNWDFCXgDFACCV8J/B+D8pGKwHRAKRAUyQDEMMQAYEUGBAAsiABpwKHjz4/9/BAZ8BDXgNgIMNGyg04MABkg1AeCEgAK8XKA5EiqORooSELykXEJuUBz43AgAIA1ZhBoG9vwAAAABJRU5ErkJggg==" style="height:18px;width:18px" alt="" data-csiid="YND3Z-PvHdyni-gPkfWLuQY_22" data-atf="4">
+                        <div class="title-text">
+                            <h5>YouTube · HELLO</h5>
+                            <p>Подписчиков: более 5,1 тыс.  :</p> 
+                        </div>
+                    </div>
+                    <div class="link-text">
+                        <h3>HELLO</h3>
+                        <p>HELLO - Релизы · HELLO - Чёрти Чё (Official Audio, 2017) · HELLO - Чувства Хокку (O'Neill & Upfinger Remix, Official Audio) · HELLO - Любовь со Вкусом Перца ( ...</p>
+                    </div>
+                </div>
+
+                <div class="bottom-images">
+                    <h3>Другие также ищут  :</h3>
+                    <div class="box-images">
+                        <div class="box-image">
+                            <img src="./src/images/1.jpg" alt="">
+                            <a href="#"><h5>Adel</h5></a>
+                        </div>
+                        <div class="box-image">
+                            <img src="./src/images/2.jpg" alt="">
+                            <a href="#"><h5>Ed Shiran</h5></a>
+                        </div>
+                        <div class="box-image">
+                            <img src="./src/images/3.webp" alt="">
+                            <a href="#"><h5>Djon Ladjand</h5></a>
+                        </div>
+                        <div class="box-image">
+                            <img src="./src/images/4.jpg" alt="">
+                            <a href="#"><h5>Rianna</h5></a>
+                        </div>
+                        <div class="box-image">
+                            <img src="./src/images/5.jpg" alt="">
+                            <a href="#"><h5>Rana Del Rey</h5></a>
+                        </div>
+                        <div class="box-image">
+                            <img src="./src/images/7.jpg" alt="">
+                            <a href="#"><h5>Ledi Gaga</h5></a>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="bottom-searchs">
+                    <div class="bottom-search">
+                        <div class="box-search">
+                            <h5>Hello перевод</h5>
+                            <svg focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"></path></svg>
+                        </div>
+                        <div class="box-search">
+                            <h5>Adele Hello текст</h5>
+                            <svg focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"></path></svg>
+                        </div>
+                    </div>
+                    <div class="bottom-search">
+                        <div class="box-search">
+                            <h5>Hello песня</h5>
+                            <svg focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"></path></svg>
+                        </div>
+                        <div class="box-search">
+                            <h5>Hello It's Me</h5>
+                            <svg focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"></path></svg>
+                        </div>
+                    </div>
+                    <div class="bottom-search">
+                        <div class="box-search">
+                            <h5>Hello Adele</h5>
+                            <svg focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"></path></svg>
+                        </div>
+                        <div class="box-search">
+                            <h5>Hello Hello</h5>
+                            <svg focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"></path></svg>
+                        </div>
+                    </div>
+                    <div class="bottom-search">
+                        <div class="box-search">
+                            <h5>Hello Песня слушать</h5>
+                            <svg focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"></path></svg>
+                        </div>
+                        <div class="box-search">
+                            <h5>Hello песня поёт мужчина</h5>
+                            <svg focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"></path></svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="right-mainbox">
+
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-text">
+            <p>Результаты персонализированы-Попробовать без персонализации <br>
+                Узбекистан
+            </p>
+            <ul><li><b>Чиланзарский район, Ташкент</b> - На основе ваших предыдущих действий
+                - Обновить</li></ul>
+        </div>
+        <div class="support">
+            <ul>
+                <li><a href="#"></a>Справка</li>
+                <li><a href="#"></a>Отправить отзыв</li>
+                <li><a href="#"></a>Конфиденциальность</li>
+                <li><a href="#"></a>Условия</li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>

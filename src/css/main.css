@@ -1,0 +1,239 @@
+main {
+    display: flex;
+    width: 100%;
+    min-width: 100vw;
+    position: relative;
+
+}
+.left-mainbox {
+    display: flex;
+    flex-direction: column;
+}
+.vid-top {
+    font-size: 20px;
+    color: #13171c94;
+    margin: 40px  0px 10px 210px;
+    font-weight: lighter;
+    cursor: pointer;
+}
+.vid-top:hover {
+    color: black;
+}
+
+.posts {
+    width: 60vw;
+    height: 25rem;
+    /* border-bottom: 1pt solid black; */
+    justify-content: center;
+    position: relative;
+}
+.post {
+    width: 70%;
+    height: 120px;
+    display: flex;
+    gap: 15px;
+    border-bottom: 1pt solid lightslategray;
+    padding: 10px 0px 10px 0px;
+    margin-left: 210px;
+}
+.post-video {
+    width: 170px;
+    height: 100px;
+    /* border: 1pt solid blue; */
+    border-radius: 10px;
+}
+.post-video img {
+    width: 170px;
+    height: 100px;
+    border-radius: 10px;
+}
+
+.post-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    line-height: 24px;
+    overflow: hidden;
+    cursor: pointer;
+}
+.post-text a{
+    font-size: 16px;
+    color: #1a0dab;
+    line-height: 24px;
+
+}
+.post-text a:hover {
+    text-decoration: underline;
+}
+
+.line {
+    width: 70%;
+    height: 1px;
+    margin-left: 210px;
+    border-bottom: 1pt solid lightslategray;
+    position: relative;
+}
+.main-bottom {
+    width: 350px;
+    height: 40px;
+    background: #f1f3f4;
+    border-radius: 20px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    position: absolute;
+    left: 23%;
+    bottom: -20px;
+    outline: 1pt solid transparent;
+}
+
+.text-posts {
+    margin-top: 50px;
+    width: 60vw;
+    height: auto;
+    /* border: 1pt solid black; */
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+
+.text-post {
+    width: 70%;
+    height: 110px;
+    /* border: 1pt solid black; */
+    display: flex;
+    flex-direction: column;
+    margin-left: 210px;
+    justify-content: space-between;
+}
+.icon-text {
+    display: flex;
+    align-items: center;
+}
+.icon-text img {
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.title-text {
+    cursor: pointer;
+}
+.title-text h5 {
+    color: #404156;
+    font-size: 14px;
+    overflow: hidden;
+}
+.title-text p {
+    color: #4d5156;
+    font-size: 12px;
+}
+.title-text:hover {
+    text-decoration: underline;
+}
+.link-text h3{
+    color: #1a0dab;
+    cursor: pointer;
+}
+.link-text h3:hover {
+    text-decoration: underline;
+}
+
+.centr-text {
+    width: 60vw;
+    display: flex;
+    flex-direction: column;
+    /* border: 1pt solid black; */
+}
+.centr-text h3 {
+    margin-left: 210px;
+    cursor: pointer;
+}
+
+.centr-link {
+    width: 70%;
+    height: 50px;
+    border-bottom: 1pt solid black;
+    margin-left: 210px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 16px;
+}
+
+.centr-link svg {
+    width: 30px;
+    height: 30px;
+}
+.bottom-images {
+    width: 60vw;
+    display: flex;
+    flex-direction: column;
+    /* border: 1pt solid black; */
+    gap: 15px;
+}
+.bottom-images h3 {
+    margin-left: 210px;
+}
+.box-images {
+    width: 60vw;
+    margin-left: 210px;
+    width: 70%;
+    display: flex;
+    gap: 15px;
+    border-bottom: 1pt solid black;
+}
+.box-image {
+    width: 92px;
+    height: 144px;
+    
+}
+.box-image a:hover {
+    text-decoration: underline;
+}
+.box-image img {
+    width: 92px;
+    height: 92px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.bottom-searchs {
+    width: 60vw;
+    display: flex;
+    flex-direction: column;
+    /* border: 1pt solid black; */
+    gap: 5px;
+}
+.bottom-search {
+    width: 70%;
+    margin-left: 210px;
+    /* border: 1pt solid rgb(26, 5, 218); */
+    display: flex;
+    gap: 15px;
+}
+.box-search {
+    width: 310px;
+    height: 52px;
+    /* border: 1pt solid rgb(211, 8, 8); */
+    border-radius: 15px;
+    display: flex;
+    padding: 10px;  
+    align-items: center;
+    justify-content: space-between;
+    background: #f3f5f6;
+    cursor: pointer;
+}
+.bottom-search h5 {
+    color: #545d7e;
+    font-size: 16px;
+}
+.bottom-search h5:hover {
+    text-decoration: underline;
+}
+.bottom-search svg {
+    width: 20px;
+    height: 20px;
+}

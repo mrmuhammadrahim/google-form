@@ -1,0 +1,29 @@
+footer {
+    margin-top: 110px;
+    width: 100vw;
+    /* border: 1pt solid black; */
+    background: #f5f8f9;
+}
+.footer-text {
+    width: 90%;
+    margin-left: 210px;
+    line-height: 15px;
+    padding: 10px 0px 10px 0px;
+}
+.footer-text p {
+    line-height: 2;
+}
+.support {
+    display: flex;
+    gap: 15px;
+    margin-left: 240px;
+}
+.support ul {
+    display: flex;
+    gap: 15px;
+}
+.support li {
+    list-style-type: none;
+    cursor: pointer;
+
+}
